@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Oswald:wght@500;700&family=Roboto+Condensed&family=Rubik:wght@500&family=Young+Serif&display=swap');
+
+.container{
+width:100%;
+    height:100vh;
+    background-image: linear-gradient(to right,rgba(0,0,50,0.8),rgba(8, 173, 71, 0.8)),url(organized-desk-with-copy-space_23-2148219270.avif);
+    position: relative;
+    background-position: center;
+    background-size: cover contain;
+}
+/* .form-box{ */
+    /* width:90%; */
+    /* max-width: 450px; */
+    /* position: absolute; */
+    /* left:50; */
+    /* top:50; */
+/*  */
+    /* background: #fff; */
+/* } */
+.form-box{
+    width:50%;
+    max-width: 550px;
+    height:auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    padding:30px;
+    transform: translate(-50%,-50%);
+    background-color: #0c333d;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1{
+    font-size: 20px;
+    color: rgb(41, 214, 214);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.field-grp{
+    /* background-color: rgb(133, 97, 133); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.field-lvl{
+    
+    /* background:#9999; */
+    margin:15px 0;
+    display:flex;
+    flex-direction: column;
+    border-radius: 3px;
+    align-items: center;
+
+}
+.ok{
+    color: aliceblue;
+}
+
+.btn{
+    padding: 5px;
+    width:100px;
+    /* background-color: gray; */
+    background: rgb(197, 153, 95);
+    border-radius: 7px;
+    border-color: aquamarine;
+
+    /* border:0; */
+    outline:0;
+    margin-left: 8px;
+    margin-bottom: 9px;
+    color:white;
+}
+
+p{
+    color: red;
+    font-size: 12px;
+}
+
+input{
+    width:150px;
+    padding:5px;
+    /* border:0 */
+    outline: 0;
+}
